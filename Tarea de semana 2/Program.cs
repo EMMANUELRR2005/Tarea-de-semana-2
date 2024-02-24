@@ -2,13 +2,12 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Calcular el modulo de dos numeros enteros 
+//Escrbie un programa que lea una cadena de texto y la imprima en mayusculas 
 
-int num1 = 23;
-int num2 = 15;
-float mod = num1 % num2;
-
-Console.WriteLine("La division de los dos numeros es: " + mod);
+Console.WriteLine("Escriba el texto");
+string texto = Console.ReadLine();
+string txtm = texto.ToUpper();
+Console.WriteLine(txtm);
 
 
 
