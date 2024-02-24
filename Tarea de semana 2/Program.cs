@@ -1,13 +1,13 @@
 ﻿using System.Text.RegularExpressions;
 using System.Transactions;
 
-//Numero flotante a entero 
+//Caracter a entero
 
-float flotante = 10.1f;
+char caracter = 'A';
 
-int entero = Convert.ToInt16(((flotante)));
+int entero = Convert.ToInt16(caracter);
 
-Console.WriteLine("Su numero flotante " + flotante + " Ha sido cambiado a entero: " + entero);
+Console.WriteLine("El caracter " + caracter + " Ha sido cambiado a entero: " + entero);
 
 
 
