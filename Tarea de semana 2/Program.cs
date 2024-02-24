@@ -1,13 +1,19 @@
 ﻿using System.Text.RegularExpressions;
 using System.Transactions;
+using System.Diagnostics.CodeAnalysis;
 
-//Entero a caracter 
+// Suma de dos numeros 
 
-int entero = 65;
+int num1 = 10;
+int num2 = 20;
 
-char caracter = Convert.ToChar(entero);
+int respuesta = num1 + num2;
 
-Console.WriteLine("Su entero " + entero + " Ha sido cambiado a caracter: " + caracter);
+Console.WriteLine("La suma de " + num1 + " + " + num2 + " Es igual a: " + respuesta);
+
+
+
+
 
 
 
