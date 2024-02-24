@@ -1,13 +1,15 @@
 ﻿using System.Text.RegularExpressions;
 using System.Transactions;
 
-//Caracter a entero
+//Entero a caracter 
 
-char caracter = 'A';
+int entero = 65;
 
-int entero = Convert.ToInt16(caracter);
+char caracter = Convert.ToChar(entero);
 
-Console.WriteLine("El caracter " + caracter + " Ha sido cambiado a entero: " + entero);
+Console.WriteLine("Su entero " + entero + " Ha sido cambiado a caracter: " + caracter);
+
+
 
 
 
