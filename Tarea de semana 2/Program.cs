@@ -1,10 +1,13 @@
 ﻿using System.Text.RegularExpressions;
 using System.Transactions;
 
-//Numero decimal a flotante
+//Numero flotante a entero 
 
-decimal deci = 10.10m;
-float flotante = (float)(deci);
+float flotante = 10.1f;
 
-Console.WriteLine("Su numero decimal " + deci + " ha sido cambiado a flotante " + flotante);
+int entero = Convert.ToInt16(((flotante)));
+
+Console.WriteLine("Su numero flotante " + flotante + " Ha sido cambiado a entero: " + entero);
+
+
 
