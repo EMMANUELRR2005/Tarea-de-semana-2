@@ -2,14 +2,16 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-// Suma de dos numeros 
+//Resta de dos decimales
 
-int num1 = 10;
-int num2 = 20;
+decimal num1 = 22.10m;
 
-int respuesta = num1 + num2;
+decimal num2 = 10.10m;
 
-Console.WriteLine("La suma de " + num1 + " + " + num2 + " Es igual a: " + respuesta);
+decimal respuesta = num1 - num2;
+
+Console.WriteLine("La resta entre " + num1 + " - " + num2 + "Es igual a: " + respuesta);
+
 
 
 
