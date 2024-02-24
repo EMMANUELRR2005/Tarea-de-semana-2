@@ -2,16 +2,21 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Escribe un programa que calcule el volumen de una esfera.
+//Escribe un programa que calcule la distancia entre dos puntos
 
-using System.Formats.Asn1;
-using System.Text.RegularExpressions;
+Console.WriteLine("Ingrese las coordenadas del primer punto:");
+Console.Write("Ingrese x: ");
+double x1 = double.Parse(Console.ReadLine());
+Console.Write("Ingrese y: ");
+double y1 = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Ingrese el radio de la esfera");
-double radio = double.Parse(Console.ReadLine());
-double volumen = (3.14 * (4 * (radio * radio * radio))) / 3;
-
-Console.WriteLine("el volumen de una esfera es: " + volumen);
+Console.WriteLine("Ingrese las coordenadas del segundo punto:");
+Console.Write(" Ingrese x: ");
+double x2 = double.Parse(Console.ReadLine());
+Console.Write("Ingrese y: ");
+double y2 = double.Parse(Console.ReadLine());
+double resultado = Math.Sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
+Console.WriteLine("La distancia es de:" + resultado);
 
 
 
