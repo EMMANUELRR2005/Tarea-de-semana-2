@@ -2,12 +2,14 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Escriba un programa que lea una cadena de textos y la imprima en minusculas
+//Escribe un programa que lea una cadena de texto y la imprima al reves
 
 Console.WriteLine("Escriba el texto");
 string texto = Console.ReadLine();
-string txtm = texto.ToLower();
+string txtm = new string(texto.Reverse().ToArray());
 Console.WriteLine(txtm);
+
+
 
 
 
