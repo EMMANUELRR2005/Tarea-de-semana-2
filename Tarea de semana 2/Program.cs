@@ -2,15 +2,18 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Resta de dos decimales
+//Multiplicacion de dos flotantes
 
-decimal num1 = 22.10m;
+float num1 = 5.5f;
 
-decimal num2 = 10.10m;
+float num2 = 10.1f;
 
-decimal respuesta = num1 - num2;
+float respuesta = num1 * num2;
 
-Console.WriteLine("La resta entre " + num1 + " - " + num2 + "Es igual a: " + respuesta);
+Console.WriteLine("La Multiplicacion entre " + num1 + " * " + num2 + " Es igual a: " + respuesta);
+
+
+
 
 
 
