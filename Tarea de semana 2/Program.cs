@@ -3,7 +3,7 @@ using System.Transactions;
 
 //Numero decimal a flotante
 
-decimal deci = 10.1m;
+decimal deci = 10.10m;
 float flotante = (float)(deci);
 
 Console.WriteLine("Su numero decimal " + deci + " ha sido cambiado a flotante " + flotante);
