@@ -2,11 +2,11 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Escrbie un programa que lea una cadena de texto y la imprima en mayusculas 
+//Escriba un programa que lea una cadena de textos y la imprima en minusculas
 
 Console.WriteLine("Escriba el texto");
 string texto = Console.ReadLine();
-string txtm = texto.ToUpper();
+string txtm = texto.ToLower();
 Console.WriteLine(txtm);
 
 
