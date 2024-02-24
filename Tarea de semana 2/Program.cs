@@ -2,14 +2,13 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Division entre dos numeros enteros 
+//Calcular el modulo de dos numeros enteros 
 
-int num1 = 100;
-int num2 = 2;
+int num1 = 23;
+int num2 = 15;
+float mod = num1 % num2;
 
-int respuesta = num1 / num2;
-
-Console.WriteLine("La division entre " + num1 + " / " + num2 + " Es igual a: " + respuesta);
+Console.WriteLine("La division de los dos numeros es: " + mod);
 
 
 
