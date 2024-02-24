@@ -2,15 +2,14 @@
 using System.Transactions;
 using System.Diagnostics.CodeAnalysis;
 
-//Multiplicacion de dos flotantes
+//Division entre dos numeros enteros 
 
-float num1 = 5.5f;
+int num1 = 100;
+int num2 = 2;
 
-float num2 = 10.1f;
+int respuesta = num1 / num2;
 
-float respuesta = num1 * num2;
-
-Console.WriteLine("La Multiplicacion entre " + num1 + " * " + num2 + " Es igual a: " + respuesta);
+Console.WriteLine("La division entre " + num1 + " / " + num2 + " Es igual a: " + respuesta);
 
 
 
